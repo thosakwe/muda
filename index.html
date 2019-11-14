@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>DIO's World</title>
+  <style>
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    .landing {
+      background: url('assets/background.png');
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      height: 100%;
+    }
+
+    .landing div {
+      text-align: center;
+    }
+
+    #click-me {
+      background: transparent;
+      border: 1px solid #fff;
+      border-radius: 4px;
+      color: #fff;
+      cursor: pointer;
+      display: block;
+      font-size: 2em;
+      margin: auto;
+      padding: 0.5em 1em;
+    }
+
+    #click-me:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="landing">
+    <button id="click-me">
+      Kono BUTTON ga!!!
+    </button>
+  </div>
+  <script src="//cdn.jsdelivr.net/npm/phaser@3.20.1/dist/phaser.min.js"></script>
+  <script type="module" src="index.js"></script>
+</body>
+
+</html>
